@@ -1,0 +1,66 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+*{
+  list-style: none;
+  text-decoration: none;
+}
+#section-top{
+  padding: 20px;
+}
+.side-one img{
+  height:auto;
+  width: 100%;
+
+}
+.para {
+   padding-top: 70px;
+   text-align: center;
+}
+#top{
+  padding-top: 10px;
+}
+nav{
+  width: 100%;
+  background:#FFC300;
+  background-position: #000;
+  height: 70px;
+  position: static;
+  z-index:1;
+}
+nav #brand a{
+  color: #000000;
+  font-family: "Shadows Into Light";
+  font-size: 40px;
+}
+nav #brand {
+  text-decoration: none;
+  float:left;
+  display:block;
+  margin-left: 84px;
+  font-size:30px;
+  line-height: 70px;
+  font-weight: bold;
+}
+nav #menu li{
+  text-align: center;
+  font-family: "Shadows Into Light";
+  font-size: 30px;
+  left: 13%;
+  display: inline-block;
+  padding: 0px 20px;
+  cursor: pointer;
+  line-height: 70px;
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+#food-menu {
+  height: 300px;
+  background: #FFC300;
+}
+#food-menu h1{
+  text-align: center;
+  font-family:"Shadows Into Light";
+}
